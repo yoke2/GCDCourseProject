@@ -89,7 +89,9 @@ __Table 2: List of variables in tidied dataset__
 Variables                         | Type        | Description
 ----------------------------------|-------------|------------------------------
 subject_id                        | numeric     | Identification of the volunteers in the dataset
+                                  |             | Valid values: 1 to 30
 activity_name                     | character   | Name of activity performed by volunteers
+                                  |             | Valid values: walking, walking_upstairs, walking_downstairs, sitting, standing, laying
 average_tbodyacc_mean_x           | numeric     | Refer to illustration table 1
 average_tbodyacc_mean_y           | numeric     | Refer to illustration table 1
 average_tbodyacc_mean_z           | numeric     | Refer to illustration table 1
